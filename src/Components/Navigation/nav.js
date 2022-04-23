@@ -2,7 +2,9 @@ import React from 'react'
 
 const nav = () => {
   return (
-    <div>our navigation bar</div>
+    <nav className='main--nav'>
+      <div className='top--div'></div>
+    </nav>
   )
 }
 
