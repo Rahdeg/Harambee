@@ -36,3 +36,201 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* Contact page styling */
+
+.contact-wrapper{
+  background-image:url(./Components/Contact/images/ales-krivec-QnNqGoCnBg0-unsplash.jpg);
+  width: 100vw;
+  height:100vh;
+  background-position: center;
+  background-size: cover;
+  display:grid;
+  grid-template-columns: 25% 45% 25%;
+  position: fixed;
+}
+
+.contact-wrapper  div:last-child{
+
+  color:white;
+}
+
+.contact-wrapper div:last-child div{
+
+  position: absolute;
+  bottom:25%;
+
+}
+
+.contact-wrapper div:last-child a{
+
+  color: white !important;
+  padding:0 15px 0;
+
+}
+
+.contact-wrapper div:last-child h2{
+
+  padding-left: 20px;
+
+}
+
+
+.contact-wrapper  div:nth-child(2) {
+  margin:100px 0 0 40px;
+  width:40vw;
+  height:70vh;
+  background: rgba(11, 11, 11, 0.4);
+
+}
+
+.contact-wrapper  div:nth-child(2)  div:first-child{
+  display: flex;
+  justify-content: center;
+  width: inherit;
+  padding: 0;
+  color: black;
+  border-bottom: solid 1px black;
+
+
+}
+.privacy{
+  color: black !important;
+  text-align: center;
+  padding:0 50px 0 40px;
+  font-weight: bold;
+  font-size: .8em;
+
+}
+
+form{
+  width:inherit;
+  height: 51vh ;
+}
+
+button{
+  position: absolute;
+  bottom:180px;
+  left:425px;
+  width:370px;
+  height:35px;
+  color:white;
+  background: hsl(49, 100%, 2%);
+  font-weight: bold;
+  border-radius: 10px;
+  border:solid 1px hsl(49, 100%, 2%);
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+.harambee{
+  width:200px;
+  font-size: 3em;
+  font-family: brush script mt;
+}
+
+.contact-wrapper div:first-child {
+
+  padding-left:40px;
+  width:20vw;
+  color: white;
+
+}
+
+.contact-wrapper div:first-child div a{
+
+  padding-left: 6px;
+  font-weight: 700;
+
+}
+
+.contact-wrapper div:first-child p {
+
+  font-weight: 500;
+
+}
+
+
+
+
+.contact-wrapper ul {
+
+  list-style: none;
+  padding: 0%;
+}
+
+.contact-wrapper a {
+
+  text-decoration: none;
+  color:hsl(53, 94%, 7%);
+  font-weight: bold;
+
+}
+
+
+.contact-wrapper a:hover {
+
+  text-decoration: underline;
+  
+}
+
+.location{
+  position: relative;
+  display: flex;
+  top:320px;
+  left:0;
+  height: 10vh;
+  width: 3vw;
+}
+
+.name, .phone, .email, .message{
+
+  position: relative;
+  width: 28vw;
+  left:5em;
+  font-size: .8em;
+  font-family: sans-serif;
+  border-radius: 5px;
+  border:solid 1px hsl(0, 0%, 100%,.5);
+  outline: none;
+
+}
+
+.name, .phone, .email{
+
+  height: 5vh;
+
+}
+
+.name {
+
+  top:2em;
+}
+
+.phone{
+  top:3em;
+}
+
+.email{
+  top:4em;
+}
+
+.message{
+  top:5em;
+  height: 13vh;
+}
+
+/* End of contact page styling */
+
+
+
+
+
+
+
+
+
+
