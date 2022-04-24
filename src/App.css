@@ -70,14 +70,23 @@
 
 }
 
-.contact-wrapper div:last-child h2{
+.contact-wrapper > div:last-child p{
 
-  padding-left: 20px;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: hsl(0, 0%, 100%);
+  outline: black;
+
+}
+
+.contact-wrapper div:last-child h3{
+
+  padding-left: 5px;
 
 }
 
 
-.contact-wrapper  div:nth-child(2) {
+.contact-wrapper > div:nth-child(2) {
   margin:100px 0 0 40px;
   width:40vw;
   height:70vh;
@@ -85,7 +94,7 @@
 
 }
 
-.contact-wrapper  div:nth-child(2)  div:first-child{
+.contact-wrapper > div:nth-child(2)  div:first-child{
   display: flex;
   justify-content: center;
   width: inherit;
@@ -102,6 +111,10 @@
   font-weight: bold;
   font-size: .8em;
 
+}
+
+h1{
+  margin-bottom: 0%;
 }
 
 form{
@@ -147,9 +160,11 @@ button:hover{
 
 }
 
-.contact-wrapper div:first-child p {
+.contact-wrapper > div:first-child p {
 
-  font-weight: 500;
+  font-weight: 600;
+  margin-top: 1px;
+  
 
 }
 
@@ -180,10 +195,26 @@ button:hover{
 .location{
   position: relative;
   display: flex;
-  top:320px;
+  align-items: center;
+
+}
+
+.location-wrapper div:first-child{
+
+  top:220px;
   left:0;
-  height: 10vh;
-  width: 3vw;
+}
+
+.location-wrapper div:nth-child(2){
+  
+  top:340px;
+  width: 0;
+}
+
+.location-wrapper div:last-child{
+
+  top:440px;
+  
 }
 
 .name, .phone, .email, .message{
