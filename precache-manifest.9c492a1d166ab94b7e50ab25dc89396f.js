@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "6c99e1e00d3db25de53b",
+    "revision": "94b75d31c05f00470b38",
     "url": "/Harambee/static/css/main.eaddf2c1.chunk.css"
   },
   {
-    "revision": "6c99e1e00d3db25de53b",
-    "url": "/Harambee/static/js/main.6c99e1e0.chunk.js"
+    "revision": "94b75d31c05f00470b38",
+    "url": "/Harambee/static/js/main.94b75d31.chunk.js"
   },
   {
     "revision": "ebbff43e716911d4c0dc",
@@ -100,7 +100,7 @@ self.__precacheManifest = [
     "url": "/Harambee/static/media/instagram.5c570427.png"
   },
   {
-    "revision": "5629808267dbf2f5070303ff47f65138",
+    "revision": "bb1917e8beda3677a6c0fe9992598abb",
     "url": "/Harambee/index.html"
   }
 ];
