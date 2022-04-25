@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Button } from './Button';
 import './Home.css';
 
@@ -13,12 +14,12 @@ const home = () => {
        <div className="Home-btns">
           <div className="btn1">
             <Button className = 'btn' buttonStyle='btn--outline' buttonSize='btn--large'>
-               ORDER FOOD
+               <Link to='/Product' >ORDER FOOD</Link> 
             </Button>
          </div>
          <div className="btn1">
             <Button className = 'btn' buttonStyle='btn--primary' buttonSize='btn--large'>
-               VIEW HOTEL
+            <Link to='/About' >ABOUT US</Link> 
             </Button> 
          </div>
        </div>
