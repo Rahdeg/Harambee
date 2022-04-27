@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Harambee/precache-manifest.5776acfea041394198b819fff08381bd.js"
+  "/Harambee/precache-manifest.3fad6682e2db19c24582b461cd1c4c29.js"
 );
 
 workbox.clientsClaim();
