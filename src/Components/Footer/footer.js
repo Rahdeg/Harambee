@@ -24,17 +24,17 @@ const footer = () => {
     </div>
 			
 			<li className="is-active">
-				<a className="nav-link " href="/menus/">REHEATING INSTRUCTIONS</a>
+				<a className="nav-link black " href="/menus/">REHEATING INSTRUCTIONS</a>
 			</li>
 			<li>
-				<a className="nav-link " href="/our-story/">CAREERS</a>
+				<a className="nav-link black" href="/our-story/">CAREERS</a>
 			</li>
 			<li>
-				<a className="nav-link " href="/happenings/">CONTACT</a>
+				<a className="nav-link black " href="/happenings/">CONTACT</a>
 			</li>
 			
 			<li>
-			   <Link to='/Product' >Order Online</Link> 
+			   <Link to='/Product'className='black' >Order Online</Link> 
 			</li>
 		</ul>
   </nav>

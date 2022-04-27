@@ -7,7 +7,7 @@ const card = ({name,amount,descp,image}) => {
       
       <article className="br2 ba dark-gray b--black-10  w-100  center">
       <div className="dtc tr">
-          <h2 class="f5 mv0">{amount} </h2>
+          <h2 class="f5 mv0 ba br3 red pd2 ma3">{amount} </h2>
         </div>
         <div className=' im'>
         <img src={image} class="" alt=" kitten"/>
@@ -25,7 +25,7 @@ const card = ({name,amount,descp,image}) => {
       </p>
     </div>
     <div className="tc">
-          <button className='f5 link dim ph3 pv2 mb2 dib black bg-white br2'>BUY</button>
+          <button className='f5 link dim ph3 pv2 mb2 dib black bg-blue br2'>BUY</button>
         </div>
   </article>
       

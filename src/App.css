@@ -4,6 +4,9 @@ body{
 }
 
 
+
+
+
 /* NAVIGATION */
 .top--div{
   background-color: #220C00;
@@ -34,7 +37,7 @@ body{
 
   .nav-item a{
     text-decoration: none;
-    color: #0f2027;    
+    color: #0e0f0f;    
     transition: all 200ms ease-in;
 }
 

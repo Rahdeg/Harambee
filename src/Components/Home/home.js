@@ -14,7 +14,7 @@ const home = () => {
        
        <div className="Home-btns">
           <div className="btn1">
-            <Button className = 'btn' buttonStyle='btn--outline' buttonSize='btn--large'>
+            <Button className = 'btn' buttonStyle='btn--primary' buttonSize='btn--large'>
                <Link to='/Product' >ORDER FOOD</Link> 
             </Button>
          </div>
