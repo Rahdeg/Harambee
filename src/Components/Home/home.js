@@ -6,7 +6,7 @@ import './Home.css';
 const home = () => {
   return (
     <div className='Home-container'>
-       <img src="public/HotelPic.jpg" alt='hotelpic' className='foto'/>
+       <img src="/HotelPic.jpg" alt='hotelpic' className='foto'/>
       
        <h1 >WELCOME TO HARAMBEE</h1>
        <p>Where your problems fade away</p>
