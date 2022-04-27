@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from './Button';
 import './Home.css';
-import Hotel from './HotelPic.jpg';
+import Hotel from './banner2.jpg';
 
 const home = () => {
   return (
