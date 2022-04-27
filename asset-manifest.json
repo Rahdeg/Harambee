@@ -1,7 +1,7 @@
 {
   "main.css": "/Harambee/static/css/main.eaddf2c1.chunk.css",
-  "main.js": "/Harambee/static/js/main.94b75d31.chunk.js",
-  "main.js.map": "/Harambee/static/js/main.94b75d31.chunk.js.map",
+  "main.js": "/Harambee/static/js/main.3d816d0c.chunk.js",
+  "main.js.map": "/Harambee/static/js/main.3d816d0c.chunk.js.map",
   "static/css/1.95740dce.chunk.css": "/Harambee/static/css/1.95740dce.chunk.css",
   "static/js/1.ebbff43e.chunk.js": "/Harambee/static/js/1.ebbff43e.chunk.js",
   "static/js/1.ebbff43e.chunk.js.map": "/Harambee/static/js/1.ebbff43e.chunk.js.map",
@@ -27,9 +27,9 @@
   "static/media/gmail.png": "/Harambee/static/media/gmail.2c1a7560.png",
   "static/media/whatsapp.png": "/Harambee/static/media/whatsapp.774352de.png",
   "static/media/instagram.png": "/Harambee/static/media/instagram.5c570427.png",
-  "static/css/main.eaddf2c1.chunk.css.map": "/Harambee/static/css/main.eaddf2c1.chunk.css.map",
   "static/css/1.95740dce.chunk.css.map": "/Harambee/static/css/1.95740dce.chunk.css.map",
+  "static/css/main.eaddf2c1.chunk.css.map": "/Harambee/static/css/main.eaddf2c1.chunk.css.map",
   "index.html": "/Harambee/index.html",
-  "precache-manifest.9c492a1d166ab94b7e50ab25dc89396f.js": "/Harambee/precache-manifest.9c492a1d166ab94b7e50ab25dc89396f.js",
+  "precache-manifest.f9a4b0a8b8b88521dcb6ffda6c296fa8.js": "/Harambee/precache-manifest.f9a4b0a8b8b88521dcb6ffda6c296fa8.js",
   "service-worker.js": "/Harambee/service-worker.js"
 }
