@@ -1,6 +1,74 @@
 body{
   background-color: whitesmoke;
+  font-family: Akshar;
 }
+
+
+/* NAVIGATION */
+.top--div{
+  background-color: #220C00;
+  border: 1px solid #ffffff;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  height: 80px;
+}
+
+.nav--list{
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgb(176, 227, 211);
+  margin: 0;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-item{
+  list-style: none;
+  margin-right: 2rem;
+  font-weight: bold;
+  color: #0f2027; 
+  font-size: 20px;
+  font-family: 'Akshar'
+  }
+
+  .nav-item a{
+    text-decoration: none;
+    color: #0f2027;    
+    transition: all 200ms ease-in;
+}
+
+.nav-item a:hover{
+    color: #6f4e37;    
+ }
+
+.nav-item:hover{
+  color: rgba(226, 226, 21, 0.798);
+}
+
+.nav-item:first-child{
+  margin-right: auto;
+  margin-left:2rem;
+  }
+
+  .btn-primary{
+    font-family: "Akshar"; 
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: white;
+    background: #220C00;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: all 200ms ease-in;
+}
+
+.btn-primary:hover{
+  background: #6f4e37;
+}
+
 .nav{
   background-color: whitesmoke;
   margin: 10px;

@@ -1,39 +1,11 @@
-import React from 'react'
-import {Link} from 'react-router-dom'
+import React from 'react';
 
-
-
-const nav = () => {
+const Nav = () => {
   return (
-    <div>
-    
-    <nav className="nav bb">
-    <ul className="navmenu" >
-			
-			<li>
-				<Link to='/' >HARAMBE</Link>
-			</li>
-			<li>
-			<Link to='/' >HOME</Link>
-			</li>
-			<li className="is-active">
-			<Link to='/about' >ABOUT</Link>
-			</li>
-			<li>
-			<Link to='/contact' >CONTACT</Link>
-			</li>
-			<li>
-			<Link to='/product' >PRODUCTS</Link>
-			</li>
-			<li>
-			<Link to='/product' >ORDER OLINE</Link>
-			</li>
-			
-		</ul>
-  </nav>
-    
-    </div>
+    <nav className='main--nav'>
+      <div className='top--div'></div>
+    </nav>
   )
 }
 
-export default nav
+export default Nav
