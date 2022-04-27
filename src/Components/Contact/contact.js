@@ -17,7 +17,7 @@ our team is happy to help you find answers.
     </p>
     <div className='flex mt5'>
     <p>Email: walett95@gmail.com</p>
-     <p className='ml5'>Mobile: walett95@gmail.com</p>
+     <p className='ml5'>Mobile: 09062337846</p>
     </div>
     <footer class="pv4 ph3 ph5-ns tc mt5">
   <a class="link dim gray dib h2 w2 br-100 mr3 " href="ww" title="">
